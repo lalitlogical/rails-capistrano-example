@@ -8,9 +8,13 @@ This is the example for rails & capistrano. You have to change some parameter ac
 3. postgresql
 
 ## Deployment command
+
 cap RAILS_ENV deploy:check
+
 cap RAILS_ENV puma:config
+
 cap RAILS_ENV puma:nginx_config
+
 cap RAILS_ENV deploy:initial
 
 That's it :)
